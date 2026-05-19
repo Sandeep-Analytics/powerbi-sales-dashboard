@@ -25,3 +25,19 @@ Interactive sales dashboard developed using Power BI to analyze revenue trends, 
 - Sales_Dashboard.pbix
 - sales_data_100_records.xlsx
 - dashboard.png
+
+- ## DAX Measures Used
+
+Total Revenue = SUM(Sheet1[Total_Sales])
+
+Total Orders = COUNT(Sheet1[Order_ID])
+
+Total Quantity = SUM(Sheet1[Quantity])
+
+Average Sales = AVERAGE(Sheet1[Total_Sales])
+
+Highest Sales = MAX(Sheet1[Total_Sales])
+
+Lowest Sales = MIN(Sheet1[Total_Sales])
+
+Total Customers = DISTINCTCOUNT(Sheet1[Customer_Name])
